@@ -73,7 +73,7 @@ class InputPin(Entity):
             self.wireframe = False
             
         if self.on == True:
-            self.color = color.yellow
+            self.color = color.red
         else:
             self.color = color.black
         
@@ -93,7 +93,7 @@ class OutputPin(Entity):
             self.wireframe = False
             
         if self.on == True:
-            self.color = color.yellow
+            self.color = color.red
         else:
             self.color = color.black
             

@@ -13,6 +13,8 @@ class ResizerTool:
         
         board.world_scale_x = int(Height)
         board.world_scale_z = int(Width)
+        
+        board.world_position += board.world_scale / 2
 
 class BasePegboard(Entity):
     def __init__(self,sizex,sizez,**kwargs):

@@ -32,7 +32,9 @@ class ButtonActor(Entity):
             self.on = False
             self.DefinedGate.Pegs[0].on = False
 
-# credit to {https://github.com/tonka3000/miniminecraft/blob/main/mmc/firstperson.py} for their FPCAdvanced class that includes flying
+
+
+# credit to https://github.com/tonka3000/miniminecraft/blob/main/mmc/firstperson.py for their FPCAdvanced class that includes flying
 class FPCAdvanced(FirstPersonController):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
